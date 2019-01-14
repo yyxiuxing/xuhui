@@ -1,0 +1,164 @@
+.security_box{
+  width: 820px;
+  height: 705px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 22px 14px 0 14px;
+  box-sizing: border-box;
+  background: rgba(239,239,239,1);
+  .security_title{
+    width: 780px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    .security_title_left{
+      width: 120px;
+      height: 32px;
+      font-size: 28px;
+      line-height: 32px;
+      color: rgba(51,51,51,1);
+      font-weight: bold;
+    }
+    .security_title_right{
+      width: 40px;
+      height: 32px;
+      background: rgba(51,51,51,1);
+    }
+  }
+  .security_mid{
+    width: 100%;
+    height:200px;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    overflow: hidden;
+    .security_mid_box{
+      width: 100%;
+      height: 100%;
+      border-bottom: 1px solid rgba(51,51,51,1);
+      box-sizing: border-box;
+      display: flex;
+      overflow: hidden;
+      .today{
+        width: 50%;
+        height: 170px;
+        margin-top: 24px;
+        border-right: 1px solid rgba(51,51,51,1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .date{
+          width: 94px;
+          height: 114px;
+          .day{
+            width: 93px;
+            height: 65px;
+            font-size: 64px;
+            text-align: center;
+            line-height: 65px;
+            font-weight: bold;
+          }
+          .month{
+            width: 93px;
+            height: 30px;
+            font-size: 27px;
+            text-align: center;
+            line-height: 30px;
+            font-weight: bold;
+          }
+        }
+        .festival{
+          width: 194px;
+          height: 98px;
+          ul{
+            width: 100%;
+            height: 100%;
+            li{
+              width: 100%;
+              height: auto;
+              font-size: 26px;
+              line-height: 30px;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+      .recently{
+        width: 50%;
+        height: 170px;
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .prev{
+          width: 90%;
+          height: 70px;
+          margin-left: 30px;
+          display: flex;
+          .date{
+            width: 50px;
+            height: 60px;
+            .day{
+              width: 52px;
+              height: 38px;
+              font-size: 36px;
+              text-align: center;
+              line-height: 38px;
+              font-weight: bold;
+            }
+            .month{
+              width: 50px;
+              height: 18px;
+              font-size: 18px;
+              text-align: center;
+              line-height: 18px;
+              font-weight: bold;
+            }
+          }
+          .festival{
+            width: 260px;
+            height: 50px;
+            ul{
+              width: 100%;
+              height: 100%;
+              li{
+                width: 100%;
+                height: auto;
+                font-size: 18px;
+                font-weight: bold;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .security_bottom{
+    width: 100%;
+    height: 422px;
+    background: #FFFFFF;
+    padding:20px;
+    padding-left: 0;
+    box-sizing: border-box;
+    display: flex;
+    .now_swiper_box,.import_swiper_box{
+      width: 369px;
+      height: 397px;
+      margin-left: 20px;
+      .now_swiper_title,.import_swiper_title{
+        width: 100%;
+        height: 52px;
+        font-size: 26px;
+        text-align: center;
+        color:rgba(51,51,51,1);
+        line-height: 53px;
+      }
+      .now_swiper,.import_swiper{
+        width: 100%;
+        height: calc( 100% - 52px);
+        background: #F2F2F2;
+      }
+    }
+  }
+}
